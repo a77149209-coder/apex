@@ -1,0 +1,412 @@
+<!doctype html>
+<html lang="uz">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/flowbite@4.0.1/dist/flowbite.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+
+  <body class="bg-[#0a0a0c] text-white">
+    <div
+      class="ticker flex items-center bg-[#000000] border-b border-white/5 overflow-hidden whitespace-nowrap h-9"
+    >
+      <span
+        class="live-badge bg-red-600 text-white text-[9px] font-bold px-3 h-full flex items-center gap-1"
+      >
+        <span class="w-1.5 h-1.5 rounded-full bg-white"></span> JONLI
+      </span>
+      <ul class="flex gap-8 px-6 mono text-[11px] text-gray-300">
+        <li>1. BAGNAIA <span class="text-red-500">+0.000</span></li>
+        <li>2. MARTÍN <span class="text-gray-500">+0.432</span></li>
+        <li>3. MÁRQUEZ <span class="text-gray-500">+1.109</span></li>
+        <li>4. BASTIANINI <span class="text-gray-500">+2.540</span></li>
+        <li>5. BINDER <span class="text-gray-500">+3.882</span></li>
+        <li>6. ACOSTA <span class="text-gray-500">+4.1</span></li>
+        <li>7. David <span class="text-gray-500">+4.2</span></li>
+        <li>8. Alex <span class="text-gray-500">+4.8</span></li>
+        <li>9. Nord <span class="text-gray-500">+5.001</span></li>
+        <li>10. Berthold <span class="text-gray-500">+5.9</span></li>
+        <li>11. Jigi <span class="text-gray-500">+7.111</span></li>
+        <li>12. Siri <span class="text-gray-500">+9.000</span></li>
+        <li>13. Mizuri<span class="text-gray-500">+10.5</span></li>
+      </ul>
+    </div>
+
+    <header class="header bg-brown-500 border-b border-white/5">
+      <nav
+        class="navbar max-w-7xl mx-auto flex items-center justify-between px-6 h-16"
+      >
+        <div class="flex items-center gap-10">
+          <a href="#" class="logo text-2xl font-black italic tracking-tight"
+            >APEX<span class="text-red-600">/</span></a
+          >
+
+          <ul
+            class="nav-list hidden md:flex gap-6 text-xs font-medium text-gray-300 uppercase"
+          >
+            <li class="text-white border-b-2 border-red-600 pb-1">
+              <a href="#">Poygalar</a>
+            </li>
+            <li><a href="#" class="hover:text-white">Jamoalar</a></li>
+            <li><a href="#" class="hover:text-white">Jadval</a></li>
+            <li><a href="#" class="hover:text-white">Telemetriya</a></li>
+            <li><a href="#" class="hover:text-white">Jurnal</a></li>
+          </ul>
+        </div>
+
+        <div class="flex items-center gap-5">
+          <a
+            href="#"
+            class="hidden md:flex items-center gap-2 mono text-[10px] text-gray-300 uppercase"
+          >
+            <span class="w-1.5 h-1.5 rounded-full bg-red-600"></span> Jonli
+            tomosha qiling
+          </a>
+          <a
+            href="#"
+            class="bg-red-600 hover:bg-red-700 text-white text-[10px] font-semibold uppercase px-5 py-2.5"
+          >
+            Obuna bo'lish
+          </a>
+        </div>
+      </nav>
+    </header>
+
+    <section
+      class="hero bg-[url(bike.svg)] flex align-center justify-center bg-no-repeat bg-cover h-[900px]"
+    >
+      <div class=" mx-auto px-6 flex cont">
+        <div class="hero-text bottom-24 left-6">
+          <p
+            class="flex items-center gap-3 text-red-500 text-[11px] uppercase mb-3"
+          >
+            <span class="w-6 h-px bg-red-500"></span> 2024 MotoGP Jahon
+            Chempionati
+          </p>
+          <h1
+            class="text-6xl md:text-7xl font-black italic uppercase leading-[0.95]"
+          >
+            Apexda <span class="text-red-600">/</span><br />Koring
+          </h1>
+          <div class="buttons flex gap-3 mt-8">
+            <a
+              href="#"
+              class="bg-red-600 hover:bg-red-700 text-white text-xs font-medium uppercase px-6 py-3.5 flex items-center gap-2"
+            >
+              Mavsumni o'rganish <span>→</span>
+            </a>
+            <a
+              href="#"
+              class="border border-white/20 hover:bg-white/10 text-white text-xs font-medium uppercase px-6 py-3.5"
+            >
+              Jonli ma'lumotlar
+            </a>
+          </div>
+        </div>
+
+        <div
+          class="cards mt-20 right-6 bottom-16 w-[260px] flex flex-col gap-2"
+        >
+          <div
+            class="card bg-black/60 backdrop-blur border border-white/10 p-4"
+          >
+            <div class="flex justify-between items-baseline">
+              <p class="text-[10px] text-gray-400 uppercase">Maksimal tezlik</p>
+              <p class="text-red-500 text-2xl">354</p>
+            </div>
+            <div class="h-0.5 bg-red-600 mt-2"></div>
+            <div class="flex justify-between text-[8px] text-gray-500 mt-1">
+              <span>KM/H</span><span>MAKS: 366.1</span>
+            </div>
+          </div>
+
+          <div
+            class="card bg-black/60 backdrop-blur border border-white/10 p-4"
+          >
+            <div class="flex justify-between items-baseline">
+              <p class="text-[10px] text-gray-400 uppercase">
+                Qiyalik burchagi
+              </p>
+              <p class="text-2xl">64°</p>
+            </div>
+            <svg class="mt-2" width="90" height="45" viewBox="0 0 90 45">
+              <path
+                d="M5 45 A40 40 0 0 1 28 8"
+                stroke="#dc2626"
+                stroke-width="3"
+                fill="none"
+              />
+              <path
+                d="M28 8 A40 40 0 0 1 85 45"
+                stroke="#333"
+                stroke-width="2"
+                fill="none"
+              />
+            </svg>
+          </div>
+
+          <div
+            class="card bg-black/60 backdrop-blur border border-white/10 p-4 flex justify-between items-baseline"
+          >
+            <p class="text-[10px] text-gray-400 uppercase leading-tight">
+              Oxirgi<br />aylanish
+            </p>
+            <p class="text-green-500 text-xl">1:31.209</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="next-race max-w-7xl mx-auto px-6 mt-4">
+      <div
+        class="card bg-white/[0.03] border border-white/5 border-l-4 border-l-red-600 flex flex-wrap items-center justify-between gap-6 p-6"
+      >
+        <div class="max-w-[220px]">
+          <p class="text-red-500 text-[10px] uppercase mb-1">
+            Kelgusi Gran-Pri
+          </p>
+          <h3 class="text-2xl font-bold italic uppercase leading-tight">
+            Misano Jahon Trassasi
+          </h3>
+          <p class="text-gray-400 text-xs mt-2">
+            San-Marino va Rimini Rivyerasi Gran-prisi
+          </p>
+        </div>
+
+        <div class="timer flex items-center gap-5 mono">
+          <div class="text-center">
+            <p class="text-3xl">02</p>
+            <p class="text-[10px] text-gray-500">KUN</p>
+          </div>
+          <span class="text-gray-600">:</span>
+          <div class="text-center">
+            <p class="text-3xl">14</p>
+            <p class="text-[10px] text-gray-500">SOAT</p>
+          </div>
+          <span class="text-gray-600">:</span>
+          <div class="text-center">
+            <p class="text-3xl">39</p>
+            <p class="text-[10px] text-gray-500">MIN</p>
+          </div>
+          <span class="text-gray-600">:</span>
+          <div class="text-center">
+            <p class="text-3xl text-red-500">12</p>
+            <p class="text-[10px] text-gray-500">SEK</p>
+          </div>
+        </div>
+
+        <svg
+          width="90"
+          height="55"
+          viewBox="0 0 90 55"
+          fill="none"
+          stroke="#555"
+          stroke-width="3"
+        >
+          <path
+            d="M10 28 C10 5, 40 5, 45 28 S80 50, 82 25 C84 5, 60 5, 45 28 S10 50, 10 28Z"
+          />
+        </svg>
+
+        <a
+          href="#"
+          class="bg-white/10 hover:bg-white/20 text-[10px] italic uppercase px-6 py-4 text-center"
+          >To'liq<br />jadval</a
+        >
+      </div>
+    </section>
+
+    <section class="standings max-w-7xl mx-auto px-6 mt-20 pb-32">
+      <div class="flex items-end justify-between">
+        <div>
+          <h2 class="text-4xl font-black italic uppercase">Reytinglar</h2>
+          <div class="w-20 h-1 bg-red-600 mt-2"></div>
+        </div>
+        <ul class="tabs flex text-[10px] italic uppercase">
+          <li><a href="#" class="block bg-red-600 px-4 py-2">MotoGP</a></li>
+          <li>
+            <a href="#" class="block bg-white/5 text-gray-400 px-4 py-2"
+              >Moto2</a
+            >
+          </li>
+          <li>
+            <a href="#" class="block bg-white/5 text-gray-400 px-4 py-2"
+              >Moto3</a
+            >
+          </li>
+        </ul>
+      </div>
+
+      <table class="table w-full mt-10 text-left">
+        <thead>
+          <tr
+            class="text-[11px] text-gray-400 uppercase border-b border-white/10"
+          >
+            <th class="py-3 font-medium">O'rin</th>
+            <th class="py-3 font-medium">Poygachi</th>
+            <th class="py-3 font-medium">Jamoa</th>
+            <th class="py-3 font-medium">Mototsikl</th>
+            <th class="py-3 font-medium text-right">Ochkolar</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="border-b border-white/10">
+            <td class="py-5 mono text-4xl text-red-600">01</td>
+            <td class="py-5">
+              <div class="flex items-center gap-3">
+                <div
+                  class="bg-[url(bagnia.svg)] bg-center w-9 h-9 rounded-full"
+                ></div>
+                <div>
+                  <p class="text-sm font-bold uppercase">Franchesko Bagnaia</p>
+                  <p class="text-[9px] text-gray-500 uppercase opacity-[.5]">
+                    Italiya
+                  </p>
+                </div>
+              </div>
+            </td>
+            <td class="py-5 text-xs text-gray-300 opacity-[.5]">
+              Ducati Lenovo Team
+            </td>
+            <td class="py-5 text-xs text-gray-300 opacity-[.5]">
+              Ducati Desmosedici
+            </td>
+            <td class="py-5 text-right mono text-lg">298</td>
+          </tr>
+
+          <tr class="border-b border-white/10">
+            <td class="py-5 text-4xl text-gray-600">02</td>
+            <td class="py-5">
+              <div class="flex items-center gap-3">
+                <div class="bg-[url(smth.svg)] w-9 h-9 rounded-full"></div>
+                <div>
+                  <p class="text-sm font-bold uppercase">Xorxe Martin</p>
+                  <p class="text-[9px] text-gray-500 uppercase opacity-[.5]">
+                    Ispaniya
+                  </p>
+                </div>
+              </div>
+            </td>
+            <td class="py-5 text-xs text-gray-300 opacity-[.5]">
+              Prima Pramac Racing
+            </td>
+            <td class="py-5 text-xs text-gray-300 opacity-[.5]">
+              Ducati Desmosedici
+            </td>
+            <td class="py-5 text-right mono text-lg">293</td>
+          </tr>
+          <tr class="border-b border-white/10">
+            <td class="py-5 text-4xl text-gray-600">03</td>
+            <td class="py-5">
+              <div class="flex items-center gap-3">
+                <div class="bg-[url(bg.svg)] w-9 h-9 rounded-full"></div>
+                <div>
+                  <p class="text-sm font-bold uppercase">Notimgham Marquez</p>
+                  <p class="text-[9px] text-gray-500 uppercase opacity-[.5]">
+                    Ispaniya
+                  </p>
+                </div>
+              </div>
+            </td>
+            <td class="py-5 text-xs text-gray-300 opacity-[.5]">
+              Gressini racing motoGP
+            </td>
+            <td class="py-5 text-xs text-gray-300 opacity-[.5]">
+              Duck Desmosed
+            </td>
+            <td class="py-5 text-right mono text-lg">229</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- next section -->
+
+    <main
+      class="bg-[#121317] w-full h-[829px] display:flex align-center justify-center max-"
+    >
+      <section class="max-w-[1200px] mx-auto">
+        <br /><br /><br /><br /><br />
+        <div>
+          <h1
+            class="text-6xl md:text-7xl font-black italic uppercase leading-[0.95]"
+          >
+            Grid <span class="text-red-600">/</span> SO'NGGI YANGILIKLAR
+          </h1>
+        </div>
+
+        <br /><br /><br /><br />
+        <div class="cards flex gap-[40px]">
+          <div class="card">
+            <img src="Container (20).png" alt="img" />
+            <br />
+            <p class="p-a">
+              TEXNIK YANGILANISH: DUCATI ARAGON <br />
+              UCHUN YANGI AERODINAMIK PAKETNI <br />
+              TAQDIM ETDI
+            </p>
+            <p class="p-b opacity-[.6] mt-[10px]">
+              Ducati Corse aerodinamik kuch chegaralarini <br />
+              kengaytirmoqda...
+            </p>
+            <div class="flex gap-[5px] mt-[10px] text-[10px]">
+              <p class="p-c opacity-[.2]">14 OKT 2024</p>
+              <p>
+                <img src="Overlay.png" alt="img" class="mt-[5px]" />
+              </p>
+              <p class="p-c opacity-[.2] text-[10px]">5 MIN O'QISH</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="Mask Group.svg" alt="img" />
+            <br />
+            <p class="p-a">
+              QIYALIK MAHORATI: AKOSTA QANDAY <br />
+              QILIB FIZIKA QONUNLARINI <br />
+              O'ZGARTIRMOQDA
+            </p>
+            <p class="p-b opacity-[.6] mt-[10px]">
+              MotoGP debyutanti tomonidan amalga oshirilgan 66 <br />
+              darajali qiyalik haqida batafsil ma'lumotlar.
+            </p>
+            <div class="flex gap-[5px] mt-[10px] text-[10px]">
+              <p class="p-c opacity-[.2]">12 OKT 2024</p>
+              <p>
+                <img src="Overlay.png" alt="img" class="mt-[5px]" />
+              </p>
+              <p class="p-c opacity-[.2] text-[10px]">8 MIN O'QISH</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="Mask Group.svg" alt="img" />
+            <br />
+            <p class="p-a">
+              SHINA STRATEGIYASIDAGI XAOS: <br />
+              YOMG'IR ASOSIY POYGANING TAQDIRINI <br />
+              HAL QILISHI MUMKIN
+            </p>
+            <p class="p-b opacity-[.6] mt-[10px]">
+              Phillip Island trassasida kutilayotgan yomg'ir <br />
+              jamoalarni sozlamalarni o'zgartirishga majbur…
+            </p>
+            <div class="flex gap-[5px] mt-[10px] text-[10px]">
+              <p class="p-c opacity-[.2]">9 OKT 2024</p>
+              <p>
+                <img src="Overlay.png" alt="img" class="mt-[5px]" />
+              </p>
+              <p class="p-c opacity-[.2] text-[10px]">7 MIN O'QISH</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- flowbite script -->
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@4.0.1/dist/flowbite.min.js"></script>
+  </body>
+</html>

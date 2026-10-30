@@ -1,0 +1,40 @@
+.p{
+    font-family: Archivo Narrow;
+font-weight: 400;
+font-style: Italic;
+font-size: 24px;
+line-height: 32px;
+letter-spacing: 0px;
+vertical-align: middle;
+color: white;
+}
+.p-a{
+    font-family: Archivo Narrow;
+font-weight: 400;
+font-style: Italic;
+font-size: 20px;
+line-height: 32px;
+letter-spacing: 0px;
+vertical-align: middle;
+}
+.p-b{
+    font-family: Inter;
+font-weight: 400;
+font-style: Regular;
+line-height: 24px;
+letter-spacing: 0px;
+vertical-align: middle;
+}
+.p-c{
+    font-family: JetBrains Mono;
+font-weight: 300;
+font-style: Regular;
+line-height: 13px;
+letter-spacing: 0px;
+vertical-align: middle;
+}
+.cont{
+    align-items: center;
+    justify-content: center;
+    
+}
